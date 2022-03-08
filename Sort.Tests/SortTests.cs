@@ -24,9 +24,10 @@ namespace Sort.Tests
             List<int> list = new List<int>();
             list.Add(1);
             List<int> sortList = Sort.asList(list);
-            Assert.True(list.Count == 1);
-            Assert.True(sortList.Count == 1);
-            Assert.True(list.ToArray().GetValue(0) == sortList.ToArray().GetValue(0));
+            // Assert.True(list.Count == 1);
+            // Assert.True(sortList.Count == 1);
+            // Assert.True(list.ToArray().GetValue(0) == sortList.ToArray().GetValue(0));
+            Assert.Equal(list, Sort.asList(list));
 
         }
     }
