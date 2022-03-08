@@ -28,5 +28,12 @@ namespace Sort.Tests
            
             Assert.Equal(list, Sort.asList(list));
         }
+
+        [Fact]
+        public void PasamosDosElementosOrdenadosYNosLosDevuelveOrdenados()
+        {
+        
+          //  Assert.Equal(List<int>()[1][2],)
+        }
     }
 }
